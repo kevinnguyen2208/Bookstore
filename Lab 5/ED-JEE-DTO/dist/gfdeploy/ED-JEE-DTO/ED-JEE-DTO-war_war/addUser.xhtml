@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+    <h:head>
+        <title>Add a User Page</title>
+    </h:head>
+    <h:body>
+        <h1>
+            Add a User
+        </h1>
+        <h2>
+            <p>Please enter the user's details below</p>
+        </h2>
+        <h3>
+            <h:form>
+                <h:panelGrid columns="2">
+                    <h:outputText value="User Id: "/>
+                    <h:inputText id="userid" value="#{myuserManagedBean.userid}"
+                                 required="true"
+                                 requiredMessage="The userid field cannot be empty!" size="6"
+                                 validatorMessage="UserID needs to be 6-digit in length">
+                        <f:validateLength minimum="6" maximum="6" />
+                    </h:inputText>
+                    <h:outputText value="Name: "/>
+                    <h:inputText id="name" value="#{myuserManagedBean.name}"
+                                 required="true"
+                                 requiredMessage="The name field cannot be empty!" size="30"/>
+                    <h:outputText value="Password "/>
+                    <h:inputText id="password" value="#{myuserManagedBean.password}"
+                                 required="true"
+                                 requiredMessage="The password field cannot be empty!" size="6"
+                                 validatorMessage="Password has to be 6 characters containg one lower case, one uppercase, 1 digit and 1 +/-/* symbol">
+                        <f:validateRegex 
+                            pattern="((?=.*\d)(?=.*[a-z])(?=.*[A-Z])(+-*).{6,6})" />
+                    </h:inputText>
+
+                    <h:outputText value="Confirm Password "/>
+                    <h:inputText id="cPassword" value="#{myuserManagedBean.cPassword}"
+                                 required="true"
+                                 requiredMessage="The confirm password field cannot be empty!" size="6"
+                                 validator="#{myuserManagedBean.validatePasswordCorrect}"
+                                 validatorMessage="Password and confirmation password must be the same"/>
+                    
+                    <h:outputText value="Email: "/>
+                    <h:inputText id="email" value="#{myuserManagedBean.email}"
+                                 required="true"
+                                 requiredMessage="The email field cannot be empty!" size="30" />
+                    <h:outputText value="Telephone: "/>
+                    <h:inputText id="phone" value="#{myuserManagedBean.phone}"
+                                 required="true"
+                                 requiredMessage="The telephone field cannot be empty!" size="10" />
+
+                    <h:outputText value="Address: "/>
+                    <h:inputText id="address" value="#{myuserManagedBean.address}"
+                                 required="true"
+                                 requiredMessage="The email field cannot be empty!" size="30" />
+                    <h:outputText value="Security Question: "/>
+                    <h:inputText id="secQn" value="#{myuserManagedBean.secQn}"
+                                 required="true"
+                                 requiredMessage="The security question field cannot be empty!" size="60"/>
+                    <h:outputText value="Security Answer: "/>
+                    <h:inputText id="secAns" value="#{myuserManagedBean.secAns}"
+                                 required="true"
+                                 requiredMessage="The security answer field cannot be empty!" size="60"/>
+                </h:panelGrid> <p></p>
+                <h:commandButton id="submit" value="Submit" action="#{myuserManagedBean.addUser}" />
+            </h:form>
+        </h3>
+    </h:body>
+
+
+</html>

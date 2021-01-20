@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scene Scope="Project" version="2">
+    <Scope Scope="Faces Configuration Only"/>
+    <Scope Scope="Project">
+        <Node id="admin/displayEmployeeDetails.xhtml" x="400" y="600" zoom="true"/>
+        <Node id="admin/addEmployeeFailure.xhtml" x="400" y="150" zoom="true"/>
+        <Node id="user/changeEmployeeSuccessful.xhtml" x="1400" y="450" zoom="true"/>
+        <Node id="admin/debugEmpId.xhtml" x="900" y="450" zoom="true"/>
+        <Node id="admin/changeEmployeeSuccessful.xhtml" x="150" y="450" zoom="true"/>
+        <Node id="admin/changeEmployeeDetails.xhtml" x="1400" y="300" zoom="true"/>
+        <Node id="authFailure.xhtml" x="650" y="600" zoom="true"/>
+        <Node id="user/changeEmployeePasswordFailure.xhtml" x="650" y="750" zoom="true"/>
+        <Node id="admin/mainmenu.xhtml" x="650" y="300" zoom="true"/>
+        <Node id="user/changeEmployeePasswordSuccessful.xhtml" x="150" y="1050" zoom="true"/>
+        <Node id="admin/deleteEmployeeFailure.xhtml" x="400" y="300" zoom="true"/>
+        <Node id="redirect.xhtml" x="1150" y="600" zoom="true"/>
+        <Node id="admin/changePasswordSuccessful.xhtml" x="1150" y="150" zoom="true"/>
+        <Node id="user/changeEmployeeDetails.xhtml" x="400" y="900" zoom="true"/>
+        <Node id="user/changeEmployeeFailure.xhtml" x="900" y="600" zoom="true"/>
+        <Node id="admin/addEmployeeSuccessful.xhtml" x="900" y="300" zoom="true"/>
+        <Node id="index.xhtml" x="150" y="300" zoom="true"/>
+        <Node id="logout.xhtml" x="1150" y="450" zoom="true"/>
+        <Node id="admin/deleteEmployeeSuccessful.xhtml" x="400" y="450" zoom="true"/>
+        <Node id="admin/addEmployee.xhtml" x="150" y="900" zoom="true"/>
+        <Node id="admin/changeEmployeeFailure.xhtml" x="150" y="150" zoom="true"/>
+        <Node id="admin/changeEmployee.xhtml" x="1150" y="300" zoom="true"/>
+        <Node id="login.xhtml" x="150" y="600" zoom="true"/>
+        <Node id="admin/displayEmployeeFailure.xhtml" x="1400" y="150" zoom="true"/>
+        <Node id="admin/changePasswordFailure.xhtml" x="400" y="750" zoom="true"/>
+        <Node id="admin/deleteEmployee.xhtml" x="650" y="150" zoom="true"/>
+        <Node id="retryLogin.xhtml" x="150" y="750" zoom="true"/>
+        <Node id="user/mainmenu.xhtml" x="1900" y="150" zoom="true"/>
+        <Node id="admin/changeEmployeePassword.xhtml" x="1650" y="150" zoom="true"/>
+        <Node id="debugEmpId.xhtml" x="650" y="450" zoom="true"/>
+        <Node id="admin/displayEmployee.xhtml" x="900" y="150" zoom="true"/>
+        <Node id="user/changeEmployeePassword.xhtml" x="1650" y="300" zoom="true"/>
+    </Scope>
+    <Scope Scope="All Faces Configurations"/>
+</Scene>

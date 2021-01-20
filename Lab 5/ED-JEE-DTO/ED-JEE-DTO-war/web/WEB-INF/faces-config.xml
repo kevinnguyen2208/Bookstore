@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<faces-config version="2.2"
+              xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_2.xsd">
+    <navigation-rule>
+        <from-view-id>/addUser.xhtml</from-view-id>
+        <navigation-case>
+            <from-action>#{myuserManagedBean.addUser}</from-action>
+            <from-outcome>success</from-outcome>
+            <to-view-id>/addUserSuccess.xhtml</to-view-id>
+        </navigation-case>
+                <navigation-case>
+            <from-action>#{myuserManagedBean.addUser}</from-action>
+            <from-outcome>failure</from-outcome>
+            <to-view-id>/addUserFailure.xhtml</to-view-id>
+        </navigation-case>
+    </navigation-rule>
+    <navigation-rule>
+        <from-view-id>/checkUser.xhtml</from-view-id>
+        <navigation-case>
+            <from-action>#{myuserManagedBean.getRecord}</from-action>
+            <from-outcome>success</from-outcome>
+            <to-view-id>/updateUser.xhtml</to-view-id>
+        </navigation-case>
+    </navigation-rule>
+    <navigation-rule>
+        <from-view-id>/updateUser.xhtml</from-view-id>
+        <navigation-case>
+            <from-action>#{myuserManagedBean.updateUser}</from-action>
+            <from-outcome>success</from-outcome>
+            <to-view-id>/updateUserSuccess.xhtml</to-view-id>
+        </navigation-case>
+         <navigation-case>
+            <from-action>#{myuserManagedBean.updateUser}</from-action>
+            <from-outcome>failure</from-outcome>
+            <to-view-id>/updateUserFailure.xhtml</to-view-id>
+        </navigation-case>
+    </navigation-rule>
+</faces-config>

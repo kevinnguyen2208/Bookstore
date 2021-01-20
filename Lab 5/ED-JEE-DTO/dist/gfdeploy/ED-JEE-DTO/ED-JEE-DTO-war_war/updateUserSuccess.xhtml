@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+    <h:head>
+        <title>Edit User Details</title>
+    </h:head>
+    <h:body>
+        <p>User Update - Success</p>
+        <h:outputText value="#{myuserManagedBean.name}"/>, your details have been updated!
+        
+        <h:form>
+            <h:panelGrid columns="2">
+                <h:outputText value="User Id: "/><h:outputText value="#{myuserManagedBean.userid}"/>
+                <h:outputText value="Name: "/><h:outputText value="#{myuserManagedBean.name}"/>
+                <h:outputText value="Password "/><h:outputText value="#{myuserManagedBean.password}"/>
+                <h:outputText value="Confirm Password "/><h:outputText value="#{myuserManagedBean.cPassword}"/>
+                <h:outputText value="Email: "/><h:outputText value="#{myuserManagedBean.email}"/>
+                <h:outputText value="Telephone: "/><h:outputText value="#{myuserManagedBean.phone}"/>
+                <h:outputText value="Address: "/><h:outputText value="#{myuserManagedBean.address}"/>
+                <h:outputText value="Security Question: "/><h:outputText value="#{myuserManagedBean.secQn}"/>
+                <h:outputText value="Security Answer: "/><h:outputText value="#{myuserManagedBean.secAns}"/>
+            </h:panelGrid>
+            <p></p>
+            <h:commandButton id="return" value="Return" action="mainmenu.xhtml"/>
+        </h:form>
+        <h:outputText value="Confirmation email sent, please check your email: #{myuserManagedBean.email}."/>
+    </h:body>
+</html>

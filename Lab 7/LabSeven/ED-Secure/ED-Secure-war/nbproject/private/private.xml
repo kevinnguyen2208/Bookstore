@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="3">
+        <file>
+            <url>src/java/web/managed/bean/MyEmpManagedBean.java</url>
+            <bookmark id="2">
+                <name/>
+                <line>25</line>
+                <key/>
+            </bookmark>
+            <bookmark id="3">
+                <name/>
+                <line>150</line>
+                <key/>
+            </bookmark>
+        </file>
+    </editor-bookmarks>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/Users/kevinnguyen2208/Desktop/LabSeven/ED-Secure/ED-Secure-war/web/WEB-INF/beans.xml</file>
+            <file>file:/Users/kevinnguyen2208/Desktop/LabSeven/ED-Secure/ED-Secure-war/web/admin/debugEmpId.xhtml</file>
+            <file>file:/Users/kevinnguyen2208/Desktop/LabSeven/ED-Secure/ED-Secure-war/web/admin/displayEmployee.xhtml</file>
+            <file>file:/Users/kevinnguyen2208/Desktop/LabSeven/ED-Secure/ED-Secure-war/web/retryLogin.xhtml</file>
+            <file>file:/Users/kevinnguyen2208/Desktop/LabSeven/ED-Secure/ED-Secure-war/web/logout.xhtml</file>
+            <file>file:/Users/kevinnguyen2208/Desktop/LabSeven/ED-Secure/ED-Secure-war/web/user/mainmenu.xhtml</file>
+            <file>file:/Users/kevinnguyen2208/Desktop/LabSeven/ED-Secure/ED-Secure-war/web/user/changeEmployeeDetails.xhtml</file>
+            <file>file:/Users/kevinnguyen2208/Desktop/LabSeven/ED-Secure/ED-Secure-war/src/java/web/MyLoginManagedBean.java</file>
+            <file>file:/Users/kevinnguyen2208/Desktop/LabSeven/ED-Secure/ED-Secure-war/web/WEB-INF/faces-config.xml</file>
+            <file>file:/Users/kevinnguyen2208/Desktop/LabSeven/ED-Secure/ED-Secure-war/web/user/changeEmployeePasswordFailure.xhtml</file>
+            <file>file:/Users/kevinnguyen2208/Desktop/LabSeven/ED-Secure/ED-Secure-war/web/authFailure.xhtml</file>
+            <file>file:/Users/kevinnguyen2208/Desktop/LabSeven/ED-Secure/ED-Secure-war/web/user/changeEmployeePasswordSuccessful.xhtml</file>
+            <file>file:/Users/kevinnguyen2208/Desktop/LabSeven/ED-Secure/ED-Secure-war/src/java/web/Redirect.java</file>
+            <file>file:/Users/kevinnguyen2208/Desktop/LabSeven/ED-Secure/ED-Secure-war/web/admin/displayEmployeeDetails.xhtml</file>
+            <file>file:/Users/kevinnguyen2208/Desktop/LabSeven/ED-Secure/ED-Secure-war/web/admin/displayEmployeeFailure.xhtml</file>
+            <file>file:/Users/kevinnguyen2208/Desktop/LabSeven/ED-Secure/ED-Secure-war/web/redirect.xhtml</file>
+            <file>file:/Users/kevinnguyen2208/Desktop/LabSeven/ED-Secure/ED-Secure-war/web/user/changeEmployeePassword.xhtml</file>
+            <file>file:/Users/kevinnguyen2208/Desktop/LabSeven/ED-Secure/ED-Secure-war/web/login.xhtml</file>
+            <file>file:/Users/kevinnguyen2208/Desktop/LabSeven/ED-Secure/ED-Secure-war/web/index.xhtml</file>
+            <file>file:/Users/kevinnguyen2208/Desktop/LabSeven/ED-Secure/ED-Secure-war/src/java/web/MyEmpManagedBean.java</file>
+            <file>file:/Users/kevinnguyen2208/Desktop/LabSeven/ED-Secure/ED-Secure-war/web/admin/mainmenu.xhtml</file>
+        </group>
+    </open-files>
+</project-private>

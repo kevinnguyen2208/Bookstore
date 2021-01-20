@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+<h:body>
+        <h1>
+            Check User
+        </h1>
+        <h2>
+            <p>Please enter the user's id</p>
+        </h2>
+        <h3>
+            <h:form>
+                <h:panelGrid columns="2">
+                    <h:outputText value="User Id: "/>
+                    <h:inputText id="userid" value="#{myuserManagedBean.userid}"
+                                 required="true"
+                                 requiredMessage="The userid field cannot be empty!" size="6" />
+                </h:panelGrid> <p></p>
+                <h:commandButton id="check" value="Submit" action="#{myuserManagedBean.getRecord}" />
+            </h:form>
+        </h3>
+    </h:body>
+</html>
