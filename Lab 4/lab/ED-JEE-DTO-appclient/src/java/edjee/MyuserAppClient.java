@@ -6,10 +6,7 @@ import java.util.Scanner;
 import javax.ejb.EJB;
 import session.MyuserFacadeRemote;
 
-/**
- *
- * @author jonathany
- */
+
 public class MyuserAppClient {
 
     @EJB
